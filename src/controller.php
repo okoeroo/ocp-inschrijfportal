@@ -48,7 +48,6 @@ function generate_pdf($dbh, $player) {
     $mpdf->WriteHTML($html);
 
     /* TODO */
-    /* $filename = '/var/www/oscar.koeroo.net/inschrijving/output/some.pdf'; */
     $filename = '/tmp/OpCyberpaint_' . $player->doortoken . md5($player->nickname . $player->doortoken) . '.pdf';
     $mpdf->Output($filename);
 
