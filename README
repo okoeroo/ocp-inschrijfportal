@@ -1,0 +1,62 @@
+  ______   .______    _______ .______          ___   .___________. __    ______   .__   __. 
+ /  __  \  |   _  \  |   ____||   _  \        /   \  |           ||  |  /  __  \  |  \ |  | 
+|  |  |  | |  |_)  | |  |__   |  |_)  |      /  ^  \ `---|  |----`|  | |  |  |  | |   \|  | 
+|  |  |  | |   ___/  |   __|  |      /      /  /_\  \    |  |     |  | |  |  |  | |  . `  | 
+|  `--'  | |  |      |  |____ |  |\  \----./  _____  \   |  |     |  | |  `--'  | |  |\   | 
+ \______/  | _|      |_______|| _| `._____/__/     \__\  |__|     |__|  \______/  |__| \__| 
+                                                                                            
+  ______ ____    ____ .______    _______ .______      .______      ___       __  .__   __. .___________.
+ /      |\   \  /   / |   _  \  |   ____||   _  \     |   _  \    /   \     |  | |  \ |  | |           |
+|  ,----' \   \/   /  |  |_)  | |  |__   |  |_)  |    |  |_)  |  /  ^  \    |  | |   \|  | `---|  |----`
+|  |       \_    _/   |   _  <  |   __|  |      /     |   ___/  /  /_\  \   |  | |  . `  |     |  |     
+|  `----.    |  |     |  |_)  | |  |____ |  |\  \----.|  |     /  _____  \  |  | |  |\   |     |  |     
+ \______|    |__|     |______/  |_______|| _| `._____|| _|    /__/     \__\ |__| |__| \__|     |__|     
+                                                                                                        
+========================================================================================================
+
+
+INTRODUCTION
+============
+
+This registration module is tailored to the pro-security and pro-privacy event Operation Cyberpaint. A place where government agents, (ethical) hackers, anonymous and info-security professionals can register for the event with minimal information disclosure. The system is tailored to the requirements of this event that the organization is able to determine how many people will participate in the event, but enable sufficient discretion to the participants to join anonymously.
+
+This module is a work in progress. There are a lot of manual sets involved, but has the potential to grow to the next step. The module enables participants to make a payment via a bank-account not linked to their own. There is also a minimal amount of information to be offered to the registration interface.
+
+
+INSTALL
+=======
+
+1. Database setup
+-----------------
+Run ./src/database-setup.sh to setup the database.
+
+2. Symlink files in the webroot
+-------------------------------
+The list of required files is:
+
+great_success.html
+sign-up.php
+check-email.php
+gotcha.png
+inschrijving.css
+total_failure.html
+controller.php
+index.html
+doortoken.php
+BlackOpsOne.ttf
+
+
+List of files to terminate the registration (set in the main page)
+------------------------------------------------------------------
+index.html
+inschrijvingvoorbij.css
+1851270709_OMG_83811072751_xlarge.jpeg
+
+
+List of files to hide somewhere in the webtree to allow for secret sign-up
+--------------------------------------------------------------------------
+index.html
+sign-up.php
+
+
+
