@@ -28,6 +28,11 @@ This registration module is tailored to the pro-security and pro-privacy event O
 
 This module is a work in progress. There are a lot of manual sets involved, but has the potential to grow to the next step. The module enables participants to make a payment via a bank-account not linked to their own. There is also a minimal amount of information to be offered to the registration interface.
 
+======
+AUTHOR
+======
+Oscar Koeroo - okoeroo@gmail.com
+
 
 =======
 INSTALL
