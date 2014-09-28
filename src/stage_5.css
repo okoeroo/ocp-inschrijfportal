@@ -1,0 +1,80 @@
+body {
+    background-color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, input {
+    font-family:            'Black Ops One', sans-serif;
+    font-weight:            normal; 
+    margin:                 0px 0 0px 0;
+}
+
+
+/* h1 { font-size: 40px; line-height: 44px; } */
+h1 { font-size: 20px; line-height: 4px; font-weight: bold; }
+h2 { font-size: 18px; line-height: 3px; font-weight: bold; }
+h3 { font-size: 15px; line-height: 3px; font-weight: bold; }
+
+div.list {
+    font-size: 2vw;
+    line-height: 1v;
+
+    display:inline;
+    font-family:            'Black Ops One', sans-serif;
+    font-weight:            normal; 
+    margin:                 0px 0 0px 0;
+    display:inline;
+}
+
+
+#titel {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    height: 16vw;
+}
+
+#titelimg {
+    width: 60vw;
+    display: block;
+}
+
+#doedieding {
+    text-align: center;
+    position: relative;
+    top:-2vw;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display:inline;
+}
+
+.tip {
+    color:              #595a39;
+    margin:             0 0 3vw 0;
+    /* line-height:        29px; */
+    display:inline;
+}
+
+.widget h1 span .firstpart {
+    color:              #000000;
+    text-decoration:    none;
+}
+
+.widget > h1 > span {
+}
+
+
+form {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

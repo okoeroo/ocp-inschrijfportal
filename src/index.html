@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+    Registreer voor Operation Cyberpaint: Perfect Forward Secrecy.
+    </title>
+
+    <meta charset="utf-8" />
+    <meta name="keywords" content="operation, cyberpaint, opcyberpaint,
+        paintball, cyber, security, privacy, panel, nieuws" />
+    <meta name="description" content="Operation Cyberpaint Een evenement met
+        een luchtige opzet en de potentiële gelegenheid om een open dialoog aan te
+        gaan met verschillende groepen. Cybersecurity, een hapje, én in teamverband
+        elkaar bestrijden op een paintball baan." />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="all"
+        href="/inschrijving/inschrijving.css" />
+</head>
+<body>
+
+    <div id="titel">
+        <center>
+        <img id="titelimg" src="https://www.opcyberpaint.nl/wp-content/themes/montezuma/images/header.png">
+        </center>
+    </div>
+    <h1 id="doedieding">Registreer je hier</h1>
+
+
+    <form action="/inschrijving/TOTALLYHIDDENSEKRIT/sign-up.php" method="POST" name="aanmelden"
+        id="create_user_form" enctype="application/x-www-form-urlencoded">
+
+        <input type="hidden" id="time_zone_utc_offset" name="time_zone_utc_offset" value="" />
+        <input type="hidden" id="time_zone_is_dst" name="time_zone_is_dst" value="" />
+
+        <fieldset form="create_user_form">
+            <div class=list>
+                <ul>
+                    <li>
+                        <label for="nickname">Nickname:</label>
+                        <input type="text" name="nickname" id="nickname"
+                            value="" maxlength="24" placeholder="Verplicht"
+                            autofocus required autocomplete="on" />
+                    </li>
+                    <li>
+                        <label for="realname">Echte naam:</label>
+                        <input type="text" name="realname" id="realname"
+                            value="" placeholder="Optioneel"
+                            autocomplete="off" />
+                    </li>
+                    <li>
+                        <label for="email">Emailadres:</label>
+                        <input type="email" name="email" id="email"
+                            value="" placeholder="Verplicht"
+                            required />
+                            <!-- required autocomplete="off" /> -->
+                    </li>
+                    <li>
+                        <label for="faction">Faction:</label>
+                        <select class="formelement" id="faction" name="faction">
+                            <option value="hacker">Hackers</option>
+                            <option value="infosec">Infosec professionals</option>
+                            <option value="anon">Anonymous</option>
+                            <option value="gov">Government agents</option>
+                        </select>
+                    </li>
+                    <hr/>
+                    <li>
+                        <label for="faction">Speler of observator?</label>
+                        <ul>
+                            <li>
+                                <div class="tip">
+                                <label for="rd_speler">Paintball speler (12,50 euro)</label>
+                                <input id="rd_speler" class="radio" type="radio"
+                                    name="gotgame" value="speler"
+                                    checked="checked"></input>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tip">
+                                <label for="rd_nonspeler">Observator (5,- euro)</label>
+                                <input id="rd_nonspeler" class="radio" type="radio"
+                                    name="gotgame"
+                                    value="observator"></input>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <br/>
+                    <li>
+                        <label for="dieet">Dieet:</label>
+                        <select class="formelement" id="faction" name="dieet">
+                            <option value="omnivoor">Omnivoor (al die dingen)</option>
+                            <option value="carnivoor">Carnivoor (zo min mogelijk groenvoer)</option>
+                            <option value="herbivoor">Herbivoor (vegetarisch)</option>
+                            <option value="paleodieet">Paleodieet</option>
+                            <option value="vegan">Veganistisch (hardcore veganisten)</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="dieetoverige">Overige dieet eisen:</label>
+                        <input type="text" name="dieetoverige" id="dieetoverige"
+                            value="" placeholder="Optioneel"
+                            autocomplete="off" />
+                    </li>
+                    <hr/>
+                    <br/>
+                    <li>
+                        <center>
+                            <button class="formelement" type="submit" id="submitform">Registreer mij!</button>
+                        </center>
+                    </li>
+                </ul>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>
